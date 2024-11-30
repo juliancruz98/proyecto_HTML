@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+  font-family: 'Anaheim', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lacquer', cursive;
+  text-align: center;
+}
+
+ul, ol,p {
+  font-family: 'Permanent Marker', cursive;
+  padding-left: 20px;
+}
+
+ul li, ol li {
+  margin: 5px 0;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+}
+
+img:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  background-color: #6a0dad; /* Morado */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#titulo-principal {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+section {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 600px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #6a0dad; /* Morado */
+  font-size: 1.8em;
+  border-bottom: 2px solid #6a0dad; /* Morado */
+  padding-bottom: 5px;
+}
+
+a {
+  color: #6a0dad; /* Morado */
+  text-decoration: none;
+  font-weight: bold;
+}
